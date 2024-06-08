@@ -1,0 +1,254 @@
+{
+  "associate": [
+    {
+      "id": 100,
+      "name": "Sumit Khanduri",
+      "email": "sumit.khanduri09@gmail.com",
+      "phone": "4387251632",
+      "address": "3-3527 Rue Jeanne Mance",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Ramesh Kumar2",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Ramesh Kumar3",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 4,
+      "name": "Ramesh Kumar4",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 5,
+      "name": "Ramesh Kumar5",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 6,
+      "name": "Ramesh Kumar6",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 7,
+      "name": "Ramesh Kumar7",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 8,
+      "name": "Ramesh Kumar8",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 9,
+      "name": "Ramesh Kumar9",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 10,
+      "name": "Ramesh Kumar10",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 11,
+      "name": "Ramesh Kumar",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 12,
+      "name": "Ramesh Kumar",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 13,
+      "name": "Ramesh Kumar",
+      "email": "ramesh@in.com",
+      "phone": "8989898989",
+      "address": "No 2 \nramraj street, chennai\nindie",
+      "type": "MNC",
+      "associateGroup": "level1",
+      "status": true
+    },
+    {
+      "id": 14,
+      "name": "Albert",
+      "email": "sumit.khanduri09@gmail.com",
+      "phone": "4387251632",
+      "associategroup": "level2",
+      "address": "no1, new street",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": 15,
+      "name": "sumit khanduri",
+      "email": "sumit.khanduri09@gmail.com",
+      "phone": "4387251632",
+      "associategroup": "level2",
+      "address": "no1, new street",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": 16,
+      "name": "sumit khanduri",
+      "email": "sumit.khanduri09@gmail.com",
+      "phone": "4387251632",
+      "associategroup": "level2",
+      "address": "no1, new street",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": 17,
+      "name": "sumit khanduri",
+      "email": "sumit.khanduri09@gmail.com",
+      "phone": "4387251632",
+      "associategroup": "level2",
+      "address": "no1, new street",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": 18,
+      "name": "sumit",
+      "email": "abc@gmail.com",
+      "phone": "41212121",
+      "associategroup": "level1",
+      "address": "lkjlkj",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 19,
+      "name": "sumit",
+      "email": "abc@gmail.com",
+      "phone": "41212121",
+      "associategroup": "level1",
+      "address": "lkjlkj",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 20,
+      "name": "sumit",
+      "email": "abc@gmail.com",
+      "phone": "41212121",
+      "associategroup": "level1",
+      "address": "lkjlkj",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 21,
+      "name": "dfadfdsfasdf",
+      "email": "sdfafW@gmai.clm",
+      "phone": "121212",
+      "associategroup": "level1",
+      "address": "1212xsfsdaf",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 22,
+      "name": "yoyo",
+      "email": "yoyo@gmail.com",
+      "phone": "778787878",
+      "associategroup": "level2",
+      "address": "jaiho street",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": 23,
+      "name": "dfdsfa",
+      "email": "kjhkh@gmai.com",
+      "phone": "1212",
+      "associategroup": "level1",
+      "address": "djfaslk",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 24,
+      "name": "dfasdf",
+      "email": "dsfas@gmai",
+      "phone": "111",
+      "associategroup": "level1",
+      "address": "fasdf",
+      "type": "CUSTOMER",
+      "status": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com",
+      "age": "30",
+      "name": "sumit"
+    }
+  ]
+}

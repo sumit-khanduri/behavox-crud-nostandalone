@@ -1,0 +1,29 @@
+<form class="form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  <div class="header">
+    Login
+  </div>
+  <input class="input" type="text" placeholder="Username" formControlName="username"
+  [class.invalid]="loginForm.get('username')?.invalid &&
+  (loginForm.get('username')?.dirty ||
+   loginForm.get('username')?.touched ||
+   isSubmitted
+   )"
+  />
+  <span *ngIf="loginForm.get('username')?.hasError('required') &&
+  (loginForm.get('username')?.dirty ||
+   loginForm.get('username')?.touched ||
+   isSubmitted)" class="error">This field is required</span>
+
+  <input  class="input" type="password" placeholder="Password" formControlName="password"
+         [class.invalid]="loginForm.get('password')?.invalid &&
+  (loginForm.get('password')?.dirty ||
+   loginForm.get('password')?.touched||
+   isSubmitted
+   )"/>
+
+  <span *ngIf="loginForm.get('password')?.hasError('required') &&
+  (loginForm.get('password')?.dirty ||
+   loginForm.get('password')?.touched ||
+   isSubmitted)" class="error">This field is required</span>
+  <button type="submit" class="button">Submit</button>
+</form>

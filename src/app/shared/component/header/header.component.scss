@@ -1,0 +1,28 @@
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  //border-radius: 10px;
+  border: 2px solid black;
+  background: aquamarine;
+  height: 70px;
+  width: 100%;
+}
+
+.right-section{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.right-section{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+button{
+  min-width: 100px;
+  min-height: 50px;
+  border-radius: 5px;
+  margin: 8px;
+}

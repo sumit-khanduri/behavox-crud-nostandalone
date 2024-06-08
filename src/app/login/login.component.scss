@@ -1,0 +1,40 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 10rem auto;
+  border: 6px double black;
+  width: 20%;
+  padding: 1.5rem;
+  background-color: aquamarine;
+  font-size: 1rem;
+}
+.header{
+  align-self: center;
+  background: aquamarine;
+}
+
+.input {
+  width: 100%;
+  background-color: white;
+  font: inherit;
+  padding: 1rem;
+}
+
+.button {
+ align-self: flex-end;
+  width: 50%;
+  font: inherit;
+  padding: 1rem;
+}
+
+.invalid{
+border: 1px solid red;
+}
+
+.error{
+  color: red;
+  background: none;
+}
+

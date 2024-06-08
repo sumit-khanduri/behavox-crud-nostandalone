@@ -1,0 +1,16 @@
+.myFormPopup{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  margin: 1rem auto;
+  gap: 1rem;
+  border: 2px solid darkseagreen;
+  padding: 1em;
+}
+
+input{
+  min-height:40px;
+  min-width:200px;
+}
