@@ -4,6 +4,7 @@ import {UserInterface} from "../../../models/user-interface";
 import {AssociatesInterface} from "../../../models/associates.interface";
 import {Subject, takeUntil} from "rxjs";
 import {Router} from "@angular/router";
+import {CommunicateService} from "../../../shared/communicate.service";
 
 @Component({
   selector: 'app-list-associate',
@@ -12,6 +13,7 @@ import {Router} from "@angular/router";
 })
 export class ListAssociateComponent implements OnInit, OnDestroy{
 associateService = inject(AssociateService);
+communicateService = inject(CommunicateService);
   @ViewChild('myForm') myForm: ElementRef | undefined;
 private unsubscribe$: Subject<void> = new Subject<void>();
 associatesData: AssociatesInterface[]=[];
@@ -23,6 +25,12 @@ ngOnInit() {
     },
     error: error => console.log(error),
   })
+
+  this.communicateService.listenData().subscribe(data => {
+    this.associatesData = data
+  });
+
+
 }
 
   edit(associate: AssociatesInterface | undefined){

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient, HttpHeaders} from "@angular/common/http";
+import {HttpClient, HttpHeaders, HttpParams} from "@angular/common/http";
 import {catchError, map, Observable, tap, throwError} from "rxjs";
 import {UserInterface} from "../models/user-interface";
 import {AssociatesInterface} from "../models/associates.interface";
@@ -16,6 +16,14 @@ export class AssociateService {
   loadData(): Observable<AssociatesInterface[]> {
     return this.http.get<AssociatesInterface[]>(this.baseURL)
       // .pipe(catchError(err => throwError(()=> new Error(err))));
+  }
+
+  fetchData(searchTerm: string) {
+    // Create a new HttpParams object with the search term as a query parameter
+    const params = new HttpParams().set('q', searchTerm);
+
+    // Make the HTTP GET request with the search term as a query parameter
+    return this.http.get<any[]>(this.baseURL, { params });
   }
 
   updateAssociates(associates: string): Observable<any> {

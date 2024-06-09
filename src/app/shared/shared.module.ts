@@ -2,16 +2,19 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './component/header/header.component';
 import {RouterLink} from "@angular/router";
+import { SearchComponent } from './search/search.component';
 
 
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    SearchComponent
   ],
-  exports: [
-    HeaderComponent
-  ],
+    exports: [
+        HeaderComponent,
+        SearchComponent
+    ],
   imports: [
     CommonModule,
     RouterLink
