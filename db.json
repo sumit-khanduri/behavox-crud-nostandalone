@@ -3,9 +3,9 @@
     {
       "id": 100,
       "name": "Sumit Khanduri",
-      "email": "sumit.khanduri09@gmail.com",
-      "phone": "4387251632",
-      "address": "3-3527 Rue Jeanne Mance",
+      "email": "sumit@gmail.com",
+      "phone": "22222222",
+      "address": "3dsgfgfdsafghgfghgfghg",
       "type": "MNC",
       "associateGroup": "level1",
       "status": true
@@ -133,8 +133,8 @@
     {
       "id": 14,
       "name": "Albert",
-      "email": "sumit.khanduri09@gmail.com",
-      "phone": "4387251632",
+      "email": "sdfa@gmail.com",
+      "phone": "222222",
       "associategroup": "level2",
       "address": "no1, new street",
       "type": "SUPPLIER",
@@ -143,8 +143,8 @@
     {
       "id": 15,
       "name": "sumit khanduri",
-      "email": "sumit.khanduri09@gmail.com",
-      "phone": "4387251632",
+      "email": "sdfa@gmail.com",
+      "phone": "12121212",
       "associategroup": "level2",
       "address": "no1, new street",
       "type": "SUPPLIER",
@@ -153,8 +153,8 @@
     {
       "id": 16,
       "name": "sumit khanduri",
-      "email": "sumit.khanduri09@gmail.com",
-      "phone": "4387251632",
+      "email": "sdfa@gmail.com",
+      "phone": "12121212",
       "associategroup": "level2",
       "address": "no1, new street",
       "type": "SUPPLIER",
@@ -163,8 +163,8 @@
     {
       "id": 17,
       "name": "sumit khanduri",
-      "email": "sumit.khanduri09@gmail.com",
-      "phone": "4387251632",
+      "email": "sdfa@gmail.com",
+      "phone": "12121212",
       "associategroup": "level2",
       "address": "no1, new street",
       "type": "SUPPLIER",
